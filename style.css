@@ -1,8 +1,10 @@
-h1{
-    color: bule;
-}
 body {
-    background-color: #000;
+    background: linear-gradient(135deg, #ff9a3c, #ff6b35);
+    color: #fff;
+}
+
+body.night {
+    background: #000;
     color: #fff;
 }
 
