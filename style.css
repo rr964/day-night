@@ -3,13 +3,20 @@ h1 {
 }
 
 body {
-    background: linear-gradient(135deg, #ff9a3c, #ff6b35);
+    background-image: url('day-bg.JPG');
+    background-size: cover;
+    background-position: center;
     color: #fff;
 }
 
 body.night {
-    background: #000;
-    color: #fff;
+    background-image: url('night-bg.JPG');
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 12px;
 }
 
 .content {
