@@ -7,11 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>RONGHUA YONG</h1>
-    <h2>introduction</h2>
-    <p>hi,i am a second year post graduate student major in IT.</p>
-    <h2>goal</h2>
-    <p>i just start learning comp 6080 so hoping with this training program i can learn while practice and gain project experince</p>
-    <script src="scripy.js"></script>
+    <div class="container">
+        <h1>RONGHUA YONG</h1>
+        <button id="toggle-btn" onclick="toggleMode()">🌙 Switch to Night</button>
+        <div id="day-content" class="content active"></div>
+            <h2>☀️ Academic</h2>
+            <p>hi,i am a second year post graduate student major in IT.</p>
+            <h2>goal</h2>
+            <p>i just start learning comp 6080 so hoping with this training program i can learn while practice and gain project experince</p>
+        </div>
+        <div id="night-content" class="content">
+                <h2>🌙 Hobby</h2>
+                <p>Outside of uni, I love detective novels and 2D games.</p>
+                <h2>Fun fact</h2>
+                <p>i feel dizzy while play 3D games but not all of them</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
